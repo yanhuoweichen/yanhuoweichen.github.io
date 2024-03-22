@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>安农田园</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<meta name="keywords"
+		content="Bootstrap Responsive Templates, Iphone Compatible Templates, Smartphone Compatible Templates, Ipad Compatible Templates, Flat Responsive Templates" />
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<link href='#css?family=Arimo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<!--start-header-->
+	<div id="home" class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" width="150" height="100"></a>
+				</div>
+				<!--start-top-nav-->
+				<nav class="top-nav">
+					<ul>
+						<li class="active"><a class="play-icon popup-with-zoom-anim" href="#small-dialog"><span> </span>登录</a>
+						</li>
+						<li><a class="play-icon popup-with-zoom-anim" href="#small-dialog1">注册</a></li>
+					</ul>
+				</nav>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!---pop-up-box---->
+		<script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+		<link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all" />
+		<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+		<!---//pop-up-box---->
+		<div id="small-dialog" class="mfp-hide">
+			<div class="login">
+				<h3>登录</h3>
+
+				<input type="text" value="请输入您的邮箱" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Email';}" />
+				<input type="password" value="Password" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Password';}" />
+				<input type="submit" value="Login" />
+			</div>
+		</div>
+		<div id="small-dialog1" class="mfp-hide">
+			<div class="signup">
+				<h3>注册</h3>
+
+				<input type="text" value="请输入您的姓名" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'First Name';}" />
+
+				<input type="text" class="email" value="Enter Email" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Enter Email';}" />
+				<input type="password" value="Password" onfocus="this.value = '';"
+					onblur="if (this.value == '') {this.value = 'Password';}" />
+				<input type="submit" value="SignUp" />
+			</div>
+		</div>
+		<script>
+			$(document).ready(function () {
+				$('.popup-with-zoom-anim').magnificPopup({
+					type: 'inline',
+					fixedContentPos: false,
+					fixedBgPos: true,
+					overflowY: 'auto',
+					closeBtnInside: true,
+					preloader: false,
+					midClick: true,
+					removalDelay: 300,
+					mainClass: 'my-mfp-zoom-in'
+				});
+
+			});
+		</script>
+		<!--End-header-->
+		<div class="navgation">
+			<div class="menu">
+				<a class="toggleMenu" href="#"><img src="images/menu-icon.png" alt="" /> </a>
+				<ul class="nav" id="nav">
+					<li><a href="index.html">主页</a></li>
+					<li><a href="about.html">关于我们</a></li>
+
+					<li><a href="blog.html" class="active">记录</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+				<!----start-top-nav-script---->
+				<script type="text/javascript" src="js/responsive-nav.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function ($) {
+						$(".scroll").click(function (event) {
+							event.preventDefault();
+							$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+						});
+					});
+				</script>
+				<!----//End-top-nav-script---->
+			</div>
+			<div class="search2">
+				<form>
+					<input type="text" value="搜索.." onfocus="this.value = '';"
+						onblur="if (this.value == '') {this.value = '搜索..';}" />
+					<input type="submit" value="">
+				</form>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--starts-blog-->
+	<div class="blog">
+		<div class="container">
+			<div class="blog-main">
+				<div class="col-md-8 blog-main-left">
+					<h3>水稻常见病症</h3>
+					<div class="blg">
+						<div class="col-md-4 blog-left blog-single-left">
+							<img src="images/shui.png" alt="" width="500" height="250">
+						</div>
+						<div class="col-md-8 blog-single-left">
+							<h5>稻瘟病</h5>
+
+							<p class="para1"><span>危害特征：
+
+									因为害时期、部位不同分为苗瘟、叶瘟、节瘟、穗颈瘟、谷粒瘟。
+
+									苗瘟：发生于三叶前，病苗黄褐色枯死。
+
+									叶瘟：慢性型病斑，多为梭形，边缘褐色，中央灰白色，有黄晕，有褐色坏死线向两端延伸；急性型病斑，一般感病品种上发生，形成暗绿色近圆形或椭圆形病斑，叶片两面都产生褐色霉层。
+
+									节瘟：常在抽穗后发生，初期产生褐色小点，后渐绕节扩展，使整个节变黑坏死，易折断，发生早的形成枯白穗。
+
+									穗颈瘟：初形成褐色小点，放展后使穗颈部变褐，也造成枯白穗，发病晚的造成秕谷。
+
+									谷粒瘟：边缘褐色、中部灰白色病斑。</p>
+
+						</div>
+						<div class="clearfix"> </div>
+						<p class="para3"><span>防治方法：
+
+								①选种抗病品种；科学管水，底肥足、追肥早、施充分腐熟的农家肥、增施磷钾肥，增强植株抗病能力；合理密植，增加通透性。
+
+								②发病初期，选用以下药剂防治：稻瘟灵；硫磺•三环唑；或三环唑，重病区需防治2次，间隔期为7～10天。</p>
+
+						<div class="social-status">
+							<ul>
+								<li><span class="fb"> </span><i class="cunt">329</i></li>
+								<li><span class="twit"> </span><i class="cunt">29</i></li>
+								<li><span class="gle"> </span><i class="cunt">39</i></li>
+							</ul>
+						</div>
+						<div class="reply">
+							<h4>留下您的评论</h4>
+							<input type="text" value="请输入您的姓名" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Name';}" />
+							<input type="text" value="请输入您的邮箱" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Email';}" />
+							<textarea value="reply" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Reply';}">评论</textarea>
+							<input type="submit" value="提交" />
+						</div>
+						<div class="comments">
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 blog-main-left">
+				<h3>聚焦三农</h3>
+				<div class="ctgry">
+					<ul>
+						<li><a href="#">清越农场品供应链</a></li>
+						<li><a href="#">山东聚义果蔬有限公司</a></li>
+						<li><a href="#">肥城市天成蔬菜种植专业合作社</a></li>
+						<li><a href="#">广东黑皮冬瓜种苗与种子</a></li>
+						<li><a href="#">宏明干货土特产</a></li>
+						<li><a href="#">顺来仔猪果蔬购销</a></li>
+						<li><a href="#">源沃农资厂商</a></li>
+						<li><a href="#">侬一农资</a></li>
+						<li><a href="#">河北石家庄耘田生物肥</a></li>
+						<li><a href="#">郑州昱赫农业机械</a></li>
+						<li><a href="#">禹城市启辰机械设备有限公司</a></li>
+
+					</ul>
+				</div>
+
+				<div class="search">
+					<h3>搜索</h3>
+					<input type="text" value="搜索" onfocus="this.value = '';"
+						onblur="if (this.value == '') {this.value = 'Email';}" />
+					<input type="submit" value="搜索" />
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+	<!--end-blog-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-text">
+
+			</div>
+		</div>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;">
+			</span></a>
+	</div>
+</body>
+
+</html>
